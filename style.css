@@ -41,4 +41,15 @@ h1{
 .countdown-el span{
     font-size: 1.5rem;
 }
-
+@media(max-width:575px){
+    h1{
+        font-size: 30px;
+        margin-top: 0.5rem;
+    }
+    .big-text{
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1;
+        margin: 0 0.6rem;
+    }
+}
